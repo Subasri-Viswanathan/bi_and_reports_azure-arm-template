@@ -137,6 +137,10 @@
 								"physicalPath": "site\\wwwroot\\reporting\\jobs"
 							},
 							{
+                                                                "virtualPath": "/reporting/viewer",
+                                                                "physicalPath": "site\\wwwroot\\reporting\\viewer"
+                                                        },
+							{
 								"virtualPath": "/reporting/reportservice",
 								"physicalPath": "site\\wwwroot\\reporting\\reportservice"
 							}
@@ -152,7 +156,7 @@
 						"[resourceId('Microsoft.Web/Sites', parameters('WebAppName'))]"
 					],
 					"properties": {
-						"RepoUrl": "https://github.com/boldbi/bi_and_reports_azure-arm-template.git",
+						"RepoUrl": "https://github.com/Subasri-Viswanathan/bi_and_reports_azure-arm-template.git",
 						"branch": "boldbi_v6.1.8_boldreports_v5.2.26",
 						"IsManualIntegration": true
 					}
